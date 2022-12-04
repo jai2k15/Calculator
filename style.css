@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.mx-auto{
+    margin:auto;
+}
+
+.button{
+    width: 54px;
+    height: 55px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 9px;
+    margin: 4px 5px
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text-input{
+    width: 264px;
+    height: 36px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.inner-container{
+    height: 362px;
+    width: 269px;
+    background-color: #a99999;
+}
