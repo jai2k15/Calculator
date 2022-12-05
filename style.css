@@ -1,24 +1,4 @@
-@media only screen and (min-width: 0px) and (max-width:371px)
-{
-    #text-input {
-        width: 196px;
-        height: 25px;
-        font-size: 19px;
-        border: 2px solid black;
-        border-radius: 10px;
-        pointer-events: none;
-    }
-    .button{
-        width: 38px;
-        height: 33px;
-    }
-    .inner-container {
-        height: 194px;
-        width: 205px;
-        background-color: #a99999;
-    }
 
-}
 *{
     margin: 0;
     padding: 0;
@@ -57,4 +37,11 @@
     height: 362px;
     width: 269px;
     background-color: #a99999;
+}
+
+@media(max-width:1058px){
+    .inner-container{
+        position: absolute;
+        top: 80px;
+    }
 }
